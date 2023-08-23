@@ -1,0 +1,46 @@
+/* Withdrawal section starts here */
+#withdrawals-table{
+    color: #fff;
+  }
+  .withdrawal-container{
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    overflow-x: auto;
+  }
+  .success {
+  color: rgb(9, 204, 9);
+    font-size: 1.2rem ;
+    font-weight: bold;
+  }
+  
+  .pending {
+  color: rgba(202, 184, 184, 0.76);
+    font-size: 1.2rem ;
+    font-weight: bold;
+  }
+  
+  .failed {
+  color: rgb(255, 58, 9);
+    font-size: 1.2rem ;
+    font-weight: bold;
+  }
+  
+  table {
+  border-collapse: collapse;
+  width: 100%;
+  }
+  
+  th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+  background-color: #fd961a;
+  color: #ffffff;
+  }
+  
+  /* Withdrawal section ends here */

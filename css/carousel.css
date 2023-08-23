@@ -1,0 +1,137 @@
+/* Testimonial Carousel Slide Start */
+.testimonial-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .testimonial-slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.7ss ease-in-out;
+  }
+  
+  .testimonial-slide.active {
+    opacity: 1;
+  }
+  
+  .testimonial-card {
+    background-color: #333;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+  .testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fd961a;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .testimonial-img img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  }
+  
+  .testimonial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .testimonial-message {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: left;
+  }
+  
+  .testimonial-location {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fd961a;
+  }  
+  
+  .testimonial-job {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 10px;
+    color: #fd961a;
+  }
+  
+  .testimonial-buttons {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .testimonial-prev,
+  .testimonial-next {
+    background-color: #fd961a;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .testimonial-prev:hover,
+  .testimonial-next:hover {
+    background-color: #f5f5f5;
+    color: #fd961a;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .testimonial-card {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .testimonial-img {
+      margin-bottom: 20px;
+    }
+  
+    .testimonial-content {
+      align-items: center;
+    }
+  
+    .testimonial-message {
+      text-align: center;
+    }
+  }
+  
+  /* Testimonial Carousel Slide End */
+
